@@ -9,7 +9,7 @@ app.use(cors({origin: true}));
 app.use(express.json());
 
 app.get("/", (req, res) => {
-    return res.json("Hai threre");
+    return res.json("Funciona el server siuu");
 })
 
 const userRoute = require('./routes/auth');
